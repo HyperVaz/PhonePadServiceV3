@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>PhonePadService Shop - Ремонт</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="css/reboot.css">
+    <link rel="stylesheet" href="css/restyle.css">
+    <link rel="stylesheet" href="css/restyle.css" id="theme-link">
+    <link rel="stylesheet" href="css/navigation.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header"><a href="index.html">
+                <div class="logo-block"><img class="logo" src="img/logo.png" alt="PhonePadService логотип">
+                    <h1 class="title">PhonePadService</h1>
+                </div>
+            </a>
+            <address class="header-block">ул. Ижорская, 50к3,<br>Нижний Новгород</address>
+            <div class="header-block">Пн-Пт 10:00 - 20:00<br>Сб-Вс 10:00 - 18:00</div>
+            <div class="header-block"><a class="tel" href="tel:+79302922007">+7 930 292 3007</a>или<br><mark
+                    class="link callback" onclick="popup.showModal()">обратный звонок</mark></div>
+            <div class="btn-block"><button class="btn-header"><img class="header_button_logo"
+                        src="img/icons8-поиск-50.png" alt="Поиск"></button><button class="btn-header"><img
+                        class="header_button_logo" src="img/icons8-корзина-50.png" alt="Корзина"></button><a
+                    class="btn-header" href="https://vk.com/parshin97"><img class="header_button_logo"
+                        src="img/icons8-vk-50.png" alt="Ссылка на соцсеть Вконтакте"></a><button class="btn-header"
+                    id="themeToggle"><img class="header_button_logo" id="ThemeIco" src="img/icons8-полумесяц-64.png"
+                        alt="иконка переключения темы"></button></div>
+        </header>
+        <dialog id="popup" class="modal-box">
+            <form>
+                <div class="modal-form-box">
+                    <h6 class="modal-title">Оставьте нам свои контакты!</h6><input class="modal-form-box-input name"
+                        type="text" placeholder="Как вас зовут?"> <input class="modal-form-box-input tel" type="tel"
+                        placeholder="Ваш номер"><button class="modal-form-box-submit"
+                        type="submit">Отправить</button><button class="modal-form-close"
+                        onclick="popup.close()">X</button>
+                </div>
+            </form>
+        </dialog>
+        <main>
+            <section class="repair-block">
+                <article class="price-block" data-aos="fade-left">
+                    <h1 class="price-title">Прайс-лист</h1>
+                    <div class="price-pos">
+                        <div class="price-name">Диагностика вашего устройства<span class="price-price">-
+                                Бесплатно</span></div>
+                    </div>
+                    <div class="price-pos">
+                        <div class="price-name">Замена дисплея<span class="price-price">- 1 500 ₽</span></div>
+                    </div>
+                    <div class="price-pos">
+                        <div class="price-name">Замена микрофона<span class="price-price">- 1 000 ₽</span></div>
+                    </div>
+                    <div class="price-pos">
+                        <div class="price-name">Замена разъёма зарядки<span class="price-price">- 1 500 ₽</span></div>
+                    </div>
+                    <div class="price-pos">
+                        <div class="price-name">Замена тачскрина<span class="price-price">- 3 000 ₽</span></div>
+                    </div>
+                    <div class="price-pos">
+                        <div class="price-name">Замена стекла<span class="price-price">- 500 ₽</span></div>
+                    </div>
+                    <div class="price-pos">
+                        <div class="price-name">Замена тачскрина (сенсора)<span class="price-price">- 3 000 ₽</span>
+                        </div>
+                    </div>
+                    <div class="price-pos">
+                        <div class="price-name">Сброс аккаунта Google<span class="price-price">- 1 500 ₽</span></div>
+                    </div>
+                    <div class="price-pos">
+                        <div class="price-name">Замена заднего стекла iPhone X,XR,XS/ 11/ 12<span class="price-price">-
+                                4 500 ₽</span></div>
+                    </div>
+                    <div class="price-pos">
+                        <div class="price-name">Замена тачскрина iPhone X,XR,XS/11/12<span class="price-price">- 5 000
+                                ₽</span></div>
+                    </div>
+                </article>
+                <article class="garanties" data-aos="fade-right">
+                    <h2 class="price-title">Мы гарантируем</h2>
+                    <div class="garanties-pos">🟢 БЕСПЛАТНАЯ консультация!</div>
+                    <div class="garanties-pos">🟢 БЕСПЛАТНАЯ диагностика!</div>
+                    <div class="garanties-pos">🟢 Клиент всегда прав!</div>
+                    <div class="garanties-pos">🟢 Оплата ТОЛЬКО за результат (Если проблема не решена – это НЕ
+                        результат!)</div>
+                    <div class="garanties-pos">🟢 Я подбираю лучшие запчасти, исходя из вашего бюджета!</div>
+                    <div class="garanties-pos">🟢 При замене дисплея – защитное стекло на новый дисплей Вам В ПОДАРОК!
+                    </div>
+                    <div class="garanties-pos">🟢 Гарантия на оказанную услугу и комплектующие 3 месяца</div>
+                    <div class="garanties-pos">🟢 Выдача квитанции об оказании услуги с чеком</div>
+                    <div class="garanties-pos">💯Опыт, вежливость и профессионализм всегда при мне!!</div>
+                    <div class="garanties-pos">🤔Если у Вас есть сомнения и вопросы!<mark class="link callback"
+                            onclick="popup.showModal()">Свяжитесь со мной и я дам консультацию!</mark></div>
+                </article>
+            </section>
+        </main>
+        <footer class="footer" data-aos="flip-left">
+            <div class="container">
+                <div class="contacts"><a class="link contacts-link"
+                        href="https://www.youtube.com/@phonepadservice7501"><img class="logo-footer youtube"
+                            src="img/icons8-youtube-play-50.png" alt=""> PPS на youtube</a><a class="link contacts-link"
+                        href="tel:+79302923007"><img class="logo-footer" src="img/icons8-телефон-50.png" alt=""> +7 930
+                        292 3007</a><a class="link contacts-link"
+                        href="https://yandex.ru/maps/47/nizhny-novgorod/house/izhorskaya_ulitsa_50k3/YE0YdgVmQU0GQFtsfX9wcXhiZw==/?ll=44.026882%2C56.310413&z=16"><img
+                            class="logo-footer planet" src="img/icons8-европа-50.png" alt=""> Наш адрес: ул. Ижорская,
+                        50к3, Нижний Новгород</a>
+                    <div class="copyright">
+                        <p class="copy-text">PhonePadService.ru 2024г. Все права защищены.</p>
+                        <p class="copy-text">ИП Рацэ В.В.ИНН 525631230700</p>
+                        <p class="copy-text">ОГРНИП 322527500001233</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init(); const btn = document.getElementById("themeToggle"), link = document.getElementById("theme-link"); function ChangeTheme() { let e = link.getAttribute("href"), t = ""; "css/restyle.css" == e ? (e = "css/dark.css", t = "dark") : (e = "css/restyle.css", t = "css/restyle.css"), link.setAttribute("href", e); let n = document.getElementById("ThemeIco"); buttonTheme = n.getAttribute("src"), "img/icons8-полумесяц-64.png" == buttonTheme ? n.setAttribute("src", "img/icons8-солнце-60.png") : n.setAttribute("src", "img/icons8-полумесяц-64.png") } btn.addEventListener("click", (function () { ChangeTheme() })), document.querySelector(".modal-form-close").addEventListener("click", (e => e.preventDefault()));</script>
+</body>
+
+</html>

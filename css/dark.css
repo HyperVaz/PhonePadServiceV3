@@ -1,0 +1,36 @@
+body {
+    background-color: rgba(0, 0, 0, 0.873);
+    color: white
+}
+
+.header,
+.adv-title-header,
+.adv-card,
+.footer,
+.acs-card,
+.acs-img,
+.price-block,
+.garanties,
+.phone-block button,
+.sumbtn button,
+.price-resale {
+    background-color: rgba(0, 0, 0, 0.873)
+}
+
+.callback,
+.contacts-link,
+.logo-footer,
+.phone-block button,
+.sumbtn button {
+    color: white
+}
+
+.aside {
+    background-color: rgba(0, 0, 0, 0.873)
+}
+
+.card,
+.resale,
+.black {
+    color: black
+}
